@@ -16,6 +16,9 @@ form.addEventListener("submit", e => {
     }
 })
 
+//let object = {
+    //name:"shubham"
+//}
 // Search function
 async function beginSearch(searchValue) {
     const searchResult = await fetch(`${apiURL}/suggest/${searchValue}`);
